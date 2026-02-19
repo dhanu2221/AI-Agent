@@ -25,3 +25,4 @@ state = agent.invoke({"messages": [("user", "what is java programming language?"
 
 resp: ResearchResponse = state["structured_response"]
 print(resp.summary)
+
